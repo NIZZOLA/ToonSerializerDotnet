@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Nizzola.ToonConvert.NET</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Márcio Rogério Nizzola</Authors>
+		<Company>Nizzola MVP</Company>
+		<Description>Token-Oriented Object Notation (TOON) serializer for .NET - Optimized for AI/LLM prompts with 30-60% token reduction compared to JSON</Description>
+		<PackageTags>toon;serialization;ai;llm;tokens;json;optimization</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/NIZZOLA/NizzolaToonConvert</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Text.Json" Version="8.0.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="../../README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+
+</Project>

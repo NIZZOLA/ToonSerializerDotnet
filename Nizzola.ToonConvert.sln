@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11121.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nizzola.ToonConvert", "src\NizzolaToon\Nizzola.ToonConvert.csproj", "{7F367313-7D0C-B814-2EF8-E688C38FD2FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NizzolaToon.Examples", "examples\NizzolaToon.Examples\NizzolaToon.Examples.csproj", "{099378C6-7770-BFEA-341A-C8FAFF9FFB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NizzolaToon.Tests", "tests\NizzolaToon.Tests\NizzolaToon.Tests\NizzolaToon.Tests.csproj", "{CA7E6001-E713-4231-8C4B-C723EBF4B837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F367313-7D0C-B814-2EF8-E688C38FD2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F367313-7D0C-B814-2EF8-E688C38FD2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F367313-7D0C-B814-2EF8-E688C38FD2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F367313-7D0C-B814-2EF8-E688C38FD2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099378C6-7770-BFEA-341A-C8FAFF9FFB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099378C6-7770-BFEA-341A-C8FAFF9FFB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099378C6-7770-BFEA-341A-C8FAFF9FFB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099378C6-7770-BFEA-341A-C8FAFF9FFB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7E6001-E713-4231-8C4B-C723EBF4B837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7E6001-E713-4231-8C4B-C723EBF4B837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7E6001-E713-4231-8C4B-C723EBF4B837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7E6001-E713-4231-8C4B-C723EBF4B837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F12D93A7-758D-4035-8B71-A0C7E592FD47}
+	EndGlobalSection
+EndGlobal

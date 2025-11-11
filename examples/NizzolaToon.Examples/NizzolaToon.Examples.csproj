@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Azure.AI.OpenAI" Version="2.5.0-beta.1" />
+	<PackageReference Include="Azure.Identity" Version="1.17.0" />
+	<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-preview.251105.1" />
+	<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0-rc.2.25502.107" />
+    <PackageReference Include="Microsoft.ML.Tokenizers" Version="2.0.0-preview.25527.5" />
+    <PackageReference Include="Microsoft.ML.Tokenizers.Data.O200kBase" Version="2.0.0-preview.25527.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\NizzolaToon\Nizzola.ToonConvert.csproj" />
+  </ItemGroup>
+
+</Project>
